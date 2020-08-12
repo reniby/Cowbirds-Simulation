@@ -1,1 +1,5 @@
 # Cowbirds-Simulation
+
+Runs a simulation of cowbirds parasitizing songbird nests. Sb stands for songbirds, Cb stands for cowbird throughout the program. Interesting variables to change to see different results is the amount of food available, the frequency of the songbird genes (how often they recognize cowbird eggs as intruders, and how often they ejects the cowbird versus abandon the nest entirely), possibly how often new cowbirds migrate into the area. 
+
+The simulation has 10 time units per generation, then any babies turn into adults and reproduce to create their own offspring. There are 10 generations of new birds. The simulation will print out the average value of the songbird genes (above) and the cowbird gene (how often is retaliates when its young is ejected), and the number of cowbirds and songbirds at the end of each generation. The population usually decreases if there is not an abundance of food, which makes sense since in reality the songbird population is decreasing (https://www.jstor.org/stable/1309241?seq=1). However if there is an abundance of food both populations will explode.
